@@ -1,16 +1,89 @@
-# React + Vite
+# 💳 Real World ATM Machine System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete full-stack MERN ATM banking application built using:
 
-Currently, two official plugins are available:
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project simulates a real-world ATM system with secure authentication, banking operations, and transaction management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Features
 
-## Expanding the ESLint configuration
+## Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- Secure Password Hashing using bcrypt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Banking Operations
+- View Account Balance
+- Deposit Money
+- Withdraw Money
+- Transfer Money
+- Transaction History
+
+## Frontend
+- React.js
+- React Router DOM
+- Axios API Integration
+- Context API State Management
+- Responsive Modern UI
+
+## Backend
+- REST APIs
+- Express.js Server
+- MongoDB Database
+- Mongoose Models
+- JWT Middleware
+- Secure Authentication System
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- React Router DOM
+- Axios
+- CSS
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcryptjs
+
+---
+
+# 📁 Project Structure
+
+```bash
+real-world-atm-system/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── .env
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── styles/
+│   └── ...
+│
+└── README.md
