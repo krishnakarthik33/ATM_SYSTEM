@@ -1,0 +1,7 @@
+QUICK SHORTCUT VERSION:
+    Terminal 1:
+        cd backend
+        npm run server
+    Terminal 2:
+        cd frontend
+        npm run dev
